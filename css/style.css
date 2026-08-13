@@ -1,8 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .circle-logo {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     object-fit:cover ;
+    margin-left: 50px;
 }
 ul{
     list-style: none;
@@ -19,8 +24,7 @@ a {
 
 .header { display: flex;
     flex-direction: column;
-    margin-left: 50px;
-    background-color: aquamarine;
+    background-color: #1F2937;
 }
  .header-links{display: flex;
  }
@@ -31,5 +35,34 @@ a {
     padding: 0;
 }
 .animated{display: flex;
-justify-content: end ;}
+justify-content:end;
+margin-right:200px;
+margin-bottom: 50px;
+}
 
+.gif{width: 400px;}
+
+.randwrd{margin-left: 50px;
+    color: white;
+ }
+
+.head-button{align-self: flex-start;
+    margin-left:50px ;
+}
+.member-text{display: flex;
+justify-content: center;
+align-items: center;
+color: black;
+font-size: x-large;
+font-weight: bolder;}
+
+.members{display: flex;
+justify-content: center;
+align-items: center;
+gap: 150px;}
+
+.animals{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
