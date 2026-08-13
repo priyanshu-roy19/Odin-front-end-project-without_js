@@ -6,7 +6,30 @@
 }
 ul{
     list-style: none;
+    display: flex;
+    gap: 100px;
+    margin-right:130px;
+    padding: 0;
+   
 }
 a {
     text-decoration: none;
+    color: white;
 }
+
+.header { display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    background-color: aquamarine;
+}
+ .header-links{display: flex;
+ }
+
+.head {display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.animated{display: flex;
+justify-content: end ;}
+
