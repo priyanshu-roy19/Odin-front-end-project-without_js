@@ -6,8 +6,8 @@ This is a self-made project of the front-end-beginner series from The Odin Proje
 
 ### **Technologies**
 
--HTML5
--CSS
+- HTML5
+- CSS
  
  ### **Author**
 
